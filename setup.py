@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(name='SiLens',
       version='0.1',
       description='First version of Machine Learning Interpretation tool by SIngulariti',
-      url='http://github.com/singularitiai/SiLens',
+      url='http://github.com/singularitiai/SiLens/archive/v0.1.tar.gz',
       author='Kanishka Sharma',
       author_email='kanishka.sharma@singulariti.ai',
       license='BSD',
