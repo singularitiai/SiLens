@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
-setup(name='silens',
+setup(name='SiLens',
       version='0.1',
       description='First version of Machine Learning Interpretation tool by SIngulariti',
       url='http://github.com/singularitiai/SiLens',
       author='Kanishka Sharma',
       author_email='kanishka.sharma@singulariti.ai',
       license='BSD',
-      packages= find_packages(exclude=['js', 'node_modules', 'tests']),
+      packages= ['SiLens'],
       install_requires=[
           'lime',
           'numpy',
